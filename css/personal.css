@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408202 */
+  src: url('http://at.alicdn.com/t/font_408202_q2r53mb86i02uik9.eot');
+  src: url('http://at.alicdn.com/t/font_408202_q2r53mb86i02uik9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408202_q2r53mb86i02uik9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408202_q2r53mb86i02uik9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408202_q2r53mb86i02uik9.svg#iconfont') format('svg');
+}
+
+/*在线远程*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*头部开始*/
+header{
+  width:100%;
+  height:.88rem;
+  background-color:#fff;
+  padding:0 .24rem;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:999;
+}
+.head-left{
+  width:.8rem;
+  height:.88rem;
+  float:left;
+}
+.head-left a{
+  width:.8rem;
+  height:.88rem;
+  display:block;
+}
+.head-left a i{
+  color:#333;
+  display:block;
+  line-height:.88rem;
+  text-align:center;
+  font-size:.38rem;
+}
+.head-right{
+  width:1.48rem;
+  height:.88rem;
+  float:right;
+}
+.head-right a{
+  height:.88rem;
+  display:block;
+}
+.head-right a i{
+  display:block;
+  font-size:.4rem;
+  line-height:.88rem;
+  text-align:center;
+  margin:0 .15rem;
+  color:#333;
+  float:left;
+}
+.head-middle{
+  width:2rem;
+  height:.54rem;
+  line-height:.54rem;
+  float:left;
+  margin:.17rem 1.3rem;
+  font-size:.3rem;
+  font-family:"PingFangSC-Light","helvetica";
+  color:#333;
+}
+  /*头部结束*/
+
+    /*内容开始*/
+section{
+  position:absolute;
+  left:0;
+  right:0;
+  top:.88rem;
+  background-color:#fff;
+  margin:auto;
+  padding-bottom: .99rem;  /*一定要给一个padding值 把底部的高度给顶上去，不然还是只显示一半*/
+}
+  /*登录开始*/
+.log-in{
+  width:6.67rem;
+  height:6.07rem;
+  padding-top:.46rem;
+  margin:0 auto;
+}
+.log-in input:nth-child(1){
+  width:6.67rem;
+  height:.98rem;
+  outline:none;
+  border:none;
+  border-bottom:1px #eee solid;
+}
+.log-in input:nth-child(2){
+  width:6.67rem;
+  height:.98rem;
+  outline:none;
+  border:none;
+  border-bottom:1px #eee solid;
+  display:block;
+}
+.log-in button{
+  width:6.67rem;
+  height:.96rem;
+  background-color:#b4282d;
+  border-radius:.04rem;
+  border:none;
+  color:#cb7a7a;
+  font-size:.3rem;
+  margin-top:.6rem;
+  margin-bottom:.4rem;
+  outline:none;
+}
+.log-in-wenzi{
+  width:6.67rem;
+  height:.32rem;
+}
+.log-in-wenzi-left{
+  width:1.5rem;
+  height:.32rem;
+  line-height:.32rem;
+  float:left;
+}
+.log-in-wenzi-left a{
+  font-size:.24rem;
+  color:#666;
+  display:block;
+}
+.log-in-wenzi-right{
+  width:1.5rem;
+  height:.32rem;
+  line-height:.32rem;
+  float:right;
+}
+.log-in-wenzi-right a{
+  font-size:.24rem;
+  color:#666;
+  display:block;
+}
+  /*登录方式*/
+.log-wechat{
+  width:7.5rem;
+  height:.74rem;
+  margin-top:4rem;
+}
+.log-wechat span{
+  color:#9fabbf;
+  font-size:.3rem;
+  line-height:.74rem;
+  text-align:center;
+  float:left;
+  padding:0 .24rem;
+  margin-left:.24rem;
+}
+.log-wechat span a{
+  color:#9fabbf;
+  font-size:.3rem;
+  line-height:.74rem;
+  text-align:center;
+  float:left;
+}
+.icon{
+  color:#55b148;
+  padding-right:.2rem;
+}
+.icon1{
+  color:#379cdc;
+  padding-right:.2rem;
+}
+.icon2{
+  color:#dd3237;
+  padding-right:.2rem;
+}
+  /*登录结束*/
+
+  /*内容结束*/
+
+  /*底部开始*/
+footer{
+  width:100%;
+  height:.99rem;
+  background-color:#fafafa;
+  position:fixed;
+  bottom:0;
+  left:0;
+  padding:0 .12rem;
+}
+.bottom{
+  width:25%;
+  height:.99rem;
+  float:left;
+}
+.bottom span{
+  font-size:.24rem;
+  height:.3rem;
+  line-height:.35rem;
+  color:#7f7f7f;
+  margin-left:.65rem;
+  display:block;
+}
+.bottom1 span{
+  color:#a63433;
+}
+.bottom a{
+  display:block;
+  width:.88rem;
+  height:.62rem;
+  margin:0 auto;
+}
+.bottom a i{
+  color:#7f7f7f;
+  font-size:.3rem;
+  display:block;
+  text-align:center;
+  line-height:.62rem;
+}
+.bottom1 a i{
+  color:#a63433;
+}
+  /*底部结束*/

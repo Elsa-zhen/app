@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408202 */
+  src: url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.eot');
+  src: url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.svg#iconfont') format('svg');
+}
+/*在线远程*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*头部开始*/
+header{
+	width:100%;
+	height:.88rem;
+	background-color:#fff;
+	padding:0 .24rem;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:999;
+}
+.head-left{
+	width:.8rem;
+	height:.88rem;
+	float:left;
+	/*background-color:yellow;*/
+}
+.head-left a{
+	width:.8rem;
+	height:.88rem;
+	display:block;
+}
+.head-left a i{
+	color:#333;
+	display:block;
+	line-height:.88rem;
+	text-align:center;
+	font-size:.38rem;
+}
+.head-right{
+	width:1.48rem;
+	height:.88rem;
+	float:right;
+	/*background-color:yellow;*/
+}
+.head-right a{
+	height:.88rem;
+	display:block;
+}
+.head-right a i{
+	display:block;
+	font-size:.4rem;
+	line-height:.88rem;
+	text-align:center;
+	margin:0 .15rem;
+	color:#333;
+	float:left;
+}
+.head-middle{
+	width:2rem;
+	height:.54rem;
+	line-height:.54rem;
+	float:left;
+	/*background-color:skyblue;*/
+	margin:.17rem 1.3rem;
+	font-size:.3rem;
+	font-family:"PingFangSC-Light","helvetica";
+	color:#333;
+}
+	/*头部结束*/
+	/*内容开始*/
+section{
+	position:absolute;
+	top:.88rem;
+	left:0;
+	right:0;
+	margin:auto;
+	background-color:#f4f4f4;
+	padding-bottom:1.04rem;
+}
+.xuanxiang{
+	width:7.5rem;
+	height:.84rem;
+	border-top:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+	padding:0 .24rem;
+	margin-bottom:.2rem;
+	background-color:#fff;
+}
+.xuanxiang li{
+	height:.8rem;
+	line-height:.8rem;
+	margin-left:.2rem;
+	padding:0 .16rem;
+	font-size:.3rem;
+	color:#333;
+	float:left;
+}
+.xiangqing{
+	width:7.5rem;
+	height:3.74rem;
+	padding-left:.3rem;
+	background-color:#fff;
+}
+.dindan{
+	width:.7.2rem;
+	height:.8rem;
+}
+.dindan span:nth-child(1){
+	height:.8rem;
+	line-height:.8rem;
+	float:left;
+	font-size:.26rem;
+	color:#333;
+}
+.dindan span:nth-child(2){
+	height:.8rem;
+	line-height:.8rem;
+	float:right;
+	font-size:.26rem;
+	color:#333;
+}
+.neirong{
+	width:7.2rem;
+	height:1.92rem;
+	padding:.25rem 0;
+}
+.neirong a{
+	width:1.6rem;
+	height:1.4rem;
+	display:block;
+	float:left;
+}
+.neirong-middle{
+	width:3rem;
+	height:.78rem;
+	margin-top:.3rem;
+	margin-left:.2rem;
+	float:left;
+}
+.neirong-middle a{
+	width:100%;
+	height:.42rem;
+	line-height:.42rem;
+	display:block;
+}
+.neirong-middle a h5{
+	font-size:.26rem;
+	color:#666;
+}
+.neirong-middle a h6{
+	font-size:.2rem;
+	color:#666;
+}
+.neirong-right{
+	width:1rem;
+	height:.76rem;
+	float:right;
+	margin-top:.3rem;
+	margin-right:.3rem;
+}
+.neirong-right a{
+	width:100%;
+	height:.4rem;
+	line-height:.4rem;
+	display:block;
+}
+.neirong-right a h5{
+	font-size:.22rem;
+	color:#666;
+}
+.neirong-right a h6{
+	font-size:.22rem;
+	color:#b4282d;
+}
+.end-bottom{
+	width:7.2rem;
+	height:1.02rem;
+	border-top:1px solid rgba(0,0,0,.2);
+}
+.end-bottom h5{
+	float:left;
+	font-size:.36rem;
+	color:#333;
+	height:1.02rem;
+	line-height:1.02rem;
+}
+.end-bottom button{
+	width:1.72rem;
+	height:.64rem;
+	margin-top:.16rem;
+	margin-right:.3rem;
+	float:right;
+	background-color:#b4282d;
+	font-size:.3rem;
+	color:#fff;
+	border:none;
+	outline:none;
+}
+
+	/*内容结束*/

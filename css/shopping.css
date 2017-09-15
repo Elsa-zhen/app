@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408202 */
+  src: url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.eot');
+  src: url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408202_kydkmpu01t51m7vi.svg#iconfont') format('svg');
+}
+/*在线远程*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*头部开始*/
+header{
+	width:100%;
+	height:.88rem;
+	background-color:#fff;
+	padding:0 .24rem;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:999;
+}
+.head-left{
+	width:.8rem;
+	height:.88rem;
+	float:left;
+	/*background-color:yellow;*/
+}
+.head-left a{
+	width:.8rem;
+	height:.88rem;
+	display:block;
+}
+.head-left a i{
+	color:#333;
+	display:block;
+	line-height:.88rem;
+	text-align:center;
+	font-size:.38rem;
+}
+.head-right{
+	width:1.48rem;
+	height:.88rem;
+	float:right;
+	/*background-color:yellow;*/
+}
+.head-right a{
+	height:.88rem;
+	display:block;
+}
+.head-right a i{
+	display:block;
+	font-size:.4rem;
+	line-height:.88rem;
+	text-align:center;
+	margin:0 .15rem;
+	color:#333;
+	float:left;
+}
+.head-middle{
+	width:2rem;
+	height:.54rem;
+	line-height:.54rem;
+	float:left;
+	/*background-color:skyblue;*/
+	margin:.17rem 1.3rem;
+	font-size:.3rem;
+	font-family:"PingFangSC-Light","helvetica";
+	color:#333;
+}
+	/*头部结束*/
+
+	/*内容开始*/
+section{
+	position:absolute;
+	top:.88rem;
+	left:0;
+	right:0;
+	margin:auto;
+	background-color:#f4f4f4;
+	padding-bottom:1.04rem;
+}
+.shopping-content{
+	width:7.5rem;
+	height:6.83rem;
+	padding:.6rem;
+	background-color:#fff;
+}
+.shopping-list{
+	width:100%;
+	height:2.1rem;
+	padding-bottom:.4rem;
+	/*background-color:skyblue;*/
+}
+.shopping-img{
+	width:1.7rem;
+	height:1.7rem;
+	background-color:#000;
+	float:left;
+}
+.shopping-wenzi-box{
+	width:3.5rem;
+	height:1.7rem;
+	float:left;
+	margin-left:.1rem;
+}
+.shopping-wenzi-box h5{
+	height:.41rem;
+	line-height:.41rem;
+	font-size:.36rem;
+	color:#333;
+	padding-top:.2rem;
+	padding-bottom:.1rem;
+}
+.shopping-wenzi-box h6{
+	height:.41rem;
+	line-height:.41rem;
+	font-size:.3rem;
+	color:#333;
+	padding-top:.2rem;
+	padding-bottom:.1rem;
+}
+.shopping-biaoti{
+	width:6.9rem;
+	height:.51rem;
+	line-height:.51rem;
+	font-size:.34rem;
+	font-weight:100;
+	color:#333;
+}
+/*选择*/
+.shopping-xuanze{
+	width:6.9rem;
+	height:1.11rem;
+}
+.shopping-xuanze li{
+	height:.65rem;
+	line-height:.65rem;
+	float:left;
+	font-size:.24rem;
+	border:1px solid #333;
+	margin-right:.32rem;
+	padding:0 .2rem;
+}
+.shopping-quantity{
+	width:6.9rem;
+	height:1rem;
+}
+.jian{
+	border:1px solid #666;
+	border-right:0;
+	width:.99rem;
+	height:.66rem;
+	float:left;
+}
+.jian i{
+	color:#666;
+	font-size:.2rem;
+	display:block;
+	line-height:.66rem;
+	text-align:center;
+}
+.middle{
+	width:1.29rem;
+	height:.66rem;
+	border:1px solid #000;
+	font-size:.24rem;
+	color:#000;
+	float:left;
+	line-height:.66rem;
+	text-align:center;
+}
+.jia{
+	border:1px solid #666;
+	border-left:0;
+	width:.99rem;
+	height:.66rem;
+	float:left;
+}
+.jia i{
+	color:#666;
+	font-size:.2rem;
+	display:block;
+	line-height:.66rem;
+	text-align:center;
+}
+
+
+
+	/*内容结束*/
+
+	/*底部开始*/
+footer{
+	width:100%;
+	height:1.04rem;
+	position:fixed;
+	bottom:0;
+	left:0;
+	padding:0 .24rem;
+	background-color:#fff;
+}
+.bottom-left{
+	width:1.6rem;
+	height:1.04rem;
+	background-color:#fff;
+	border-right:1px solid #d9d9d9;
+	float:left;
+}
+.bottom-left a{
+	width:1.6rem;
+	height:1.04rem;
+	display:block;
+	font-size:.3rem;
+	color:#999;
+	line-height:1.04rem;
+	text-align:center;
+}
+.bottom-middle{
+	width:2.7rem;
+	height:1.04rem;
+	background-color:#fff;
+	float:left;
+	border:none;
+	font-size:.3rem;
+	line-height:1.04rem;
+	color:#c7c7c7;
+	outline:none;
+}
+.bottom-right{
+	width:2.7rem;
+	height:1.04rem;
+	background-color:#b4282d;
+	float:left;
+	border:none;
+	font-size:.3rem;
+	line-height:1.04rem;
+	color:#fff;
+	outline:none;
+}
+	/*底部结束*/

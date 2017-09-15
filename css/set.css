@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408202 */
+  src: url('http://at.alicdn.com/t/font_408202_o8tni2xow3bfyldi.eot');
+  src: url('http://at.alicdn.com/t/font_408202_o8tni2xow3bfyldi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408202_o8tni2xow3bfyldi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408202_o8tni2xow3bfyldi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408202_o8tni2xow3bfyldi.svg#iconfont') format('svg');
+}
+/*在线远程*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+  /*头部开始*/
+header{
+  width:100%;
+  height:.88rem;
+  background-color:#fff;
+  padding:0 .24rem;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:999;
+}
+.head-left{
+  width:.8rem;
+  height:.88rem;
+  float:left;
+}
+.head-left a{
+  width:.8rem;
+  height:.88rem;
+  display:block;
+}
+.head-left a i{
+  color:#808080;
+  font-size:.4rem;
+  line-height:.88rem;
+  text-align:center;
+  display:block;
+}
+.head-middle{
+  width:1.5rem;
+  height:.54rem;
+  line-height:.54rem;
+  float:left;
+  margin:.17rem 1.5rem;
+  font-size:.4rem;
+  font-family:"PingFangSC-Light","helvetica";
+  color:#333;
+}
+  /*头部结束*/
+
+  /*内容开始*/
+section{
+  position:absolute;
+  top:.88rem;
+  left:0;
+  right:0;
+  margin:auto;
+  background-color:#fff;
+  /*padding-bottom:1.04rem;*/
+}
+.set-list{
+  width:7.5rem;
+  height:2.08rem;
+  padding:.4rem .48rem;
+  border-bottom:1px solid #eee;
+  background-color:#fff;
+}
+.set-list a{
+  width:100%;
+  height:1.28rem;
+  display:block;
+}
+.set-list a h5{
+  height:1.28rem;
+  line-height:1.28rem;
+  float:left;
+  font-size:.4rem;
+  color:#333;
+}
+.set-list a h6{
+  height:1.28rem;
+  line-height:1.28rem;
+  float:right;
+  font-size:.4rem;
+  color:#b8b8b8;
+}
+.set-list a i{
+  height:1.28rem;
+  line-height:1.28rem;
+  float:right;
+  font-size:.4rem;
+  color:#b8b8b8;
+}
+.set-list-1{
+  margin-top:.4rem;
+}
+.set-list-button{
+  width:7.5rem;
+  height:1.05rem;
+  background-color:#fafafa;
+  font-size:.36rem;
+  color:#333;
+  line-height:1.05rem;
+  border:none;
+  outline:none;
+  display:block;
+  margin-top:.4rem;
+}
+.set-list-button a{
+	color:#333;
+}
+  /*内容结束*/

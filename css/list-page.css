@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408202 */
+  src: url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.eot');
+  src: url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.svg#iconfont') format('svg');
+}
+
+/*在线远程*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+  /*头部开始*/
+  header{
+  z-index: 999;
+  width:100%;
+  height:.88rem;
+  background-color:#fff;
+  padding:0 .12rem;
+  position:fixed;
+  top:0;
+  left:0;
+}
+.head-left{
+  width:1.38rem;
+  height:.88rem;
+  float:left;
+  font-size:.3rem;
+  font-family:"PingFangSC-Light","helvetica";
+  color:#333;
+  /*background-color:yellow;*/
+}
+.head-right{
+  width:5.32rem;
+  height:.64rem;
+  float:left;
+  border-radius:10px;
+  /*background-color:skyblue;*/
+  margin:.12rem .27rem;
+}
+.head-right input{
+  width:100%;
+  height:100%;
+  display:block;
+  border:none;
+  background-color:#ededed;
+  border-radius:10px;
+  font-size:.14rem;
+  color:#858585;
+  text-align:center;
+  outline:none;
+}
+  /*头部结束*/
+
+  /*内容开始*/
+section{
+  position:absolute;
+  left:0;
+  right:0;
+  top:.88rem;
+  /*bottom:.99rem;*/ /*不能设底的范围，不然把内容固定死了*/
+  background-color:#f4f4f4;
+  margin:auto;
+  padding-bottom: .99rem;  /*一定要给一个padding值 把底部的高度给顶上去，不然还是只显示一半*/
+}
+
+
+  /*banner开始*/
+.banner{
+  width:100%;
+  height:4.2rem;
+  /*background-color:skyblue;*/
+  background-image:url('../img/7.jpeg');
+  background-position:right;
+  background-size:contain;
+  background-repeat:no-repeat;
+  position:relative;
+}
+.banner-lunbo{
+  width:3.5rem;
+  height:.1rem;
+  /*background-color:pink;*/
+  float:left;
+  position:absolute;
+  left:25%;
+  bottom:.15rem;
+  z-index:99;
+}
+.banner-lunbo li{
+  width:.5rem;
+  height:.1rem;
+  background-color:#eee;
+  margin-right:.2rem;
+  float:left;
+}
+.banner-lunbo li:nth-child(3){
+  background-color:#555;
+}
+
+  /*banner结束*/
+
+  /*床品套件开始*/
+.bed-top{
+  width:100%;
+  height:1.2rem;
+  background-color:#fff;
+  font-size:.37rem;
+  color:#000;
+  line-height:1.2rem;
+  text-align:center;
+}
+.bed-ul-box{
+  width:100%;
+  height:26.7rem;
+  background-color:#f5f5f5;
+  /*padding:0 .12rem;*/
+}
+.bed-ul-li{
+  width:3.75rem;
+  height:5.3496rem;
+  padding:0 .2rem .33rem .2rem;
+  float:left;
+  background-color:#fff;
+}
+.bed-ul-li a{
+  display:block;
+  width:3.45rem;
+  height:3.45rem;
+}
+.bed-ul-li h4{
+  width:3.45rem;
+  height:.68rem;
+  padding:.2rem .1rem;
+  font-size:.3rem;
+  line-height:.28rem;
+  color:#333;
+}
+.bed-ul-li h5{
+  width:3.45rem;
+  height:.26rem;
+  padding:0 .1rem;
+  margin:.2rem 0 .1rem 0;
+  font-size:.3rem;
+  line-height:.26rem;
+  color:#333;
+}
+.bed-ul-li h6{
+  width:3.45rem;
+  height:.32rem;
+  padding:0 .1rem;
+  font-size:.3rem;
+  line-height:.32rem;
+  color:#b4282d;
+}
+  /*床品套件结束*/
+
+  /*内容结束*/
+
+    /*底部开始*/
+footer{
+  width:100%;
+  height:.99rem;
+  background-color:#fafafa;
+  position:fixed;
+  bottom:0;
+  left:0;
+  padding:0 .12rem;
+}
+.bottom{
+  width:25%;
+  height:.99rem;
+  /*background-color:yellow;*/
+  float:left;
+}
+.bottom span{
+  font-size:.24rem;
+  height:.3rem;
+  line-height:.35rem;
+  color:#7f7f7f;
+  margin-left:.65rem;
+  display:block;
+}
+.bottom a{
+  display:block;
+  width:.88rem;
+  height:.62rem;
+  /*background-color:gold;*/
+  margin:0 auto;
+}
+.bottom a i{
+  color:#7f7f7f;
+  font-size:.3rem;
+  display:block;
+  text-align:center;
+  line-height:.62rem;
+}
+
+  /*底部结束*/

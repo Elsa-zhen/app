@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 408202 */
+  src: url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.eot');
+  src: url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_408202_8pplzyxammgw4s4i.svg#iconfont') format('svg');
+}
+
+/*在线远程*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+  /*头部开始*/
+header{
+  z-index: 999;
+  width:100%;
+  height:.88rem;
+  background-color:#fff;
+  padding:0 .12rem;
+  position:fixed;
+  top:0;
+  left:0;
+}
+.head-left{
+  width:.8rem;
+  height:.88rem;
+  float:left;
+}
+.head-right{
+  width:.8rem;
+  height:.88rem;
+  float:right;
+}
+.head-right a{
+  color:#979797;
+  height:.88rem;
+  line-height:.88rem;
+  text-align:center;
+  display:block;
+}
+.head-right a i{
+  display:block;
+  font-size:.3rem;
+}
+.head-middle{
+  width:5.38rem;
+  height:.64rem;
+  float:left;
+  border-radius:10px;
+  margin:.12rem .13rem;
+}
+.head-middle input{
+  width:100%;
+  height:100%;
+  display:block;
+  border:none;
+  background-color:#ededed;
+  border-radius:10px;
+  font-size:.14rem;
+  color:#858585;
+  text-align:center;
+  outline:none;
+}
+  /*头部结束*/
+
+  /*内容开始*/
+section{
+  position:absolute;
+  left:0;
+  right:0;
+  top:.88rem;
+  background-color:#f4f4f4;
+  margin:auto;
+  padding-bottom: .99rem;
+}
+  /*标题开始*/
+.title-wenzi{
+  width:7.5rem;
+  height:.72rem;
+  margin-top:.1rem;
+  padding:.2rem;
+  font-size:.36rem;
+  color:#000;
+}
+
+  /*标题结束*/
+
+  /*分类列表开始*/
+.classify-list{
+  width:7.5rem;
+  height:9.81rem;
+  border-top:1px #eee solid;
+}
+.classify-list-li{
+  width:1.87rem;
+  height:2.45rem;
+  float:left;
+  border-bottom:1px #eee solid;
+  border-right:1px #eee solid;
+}
+.classify-list-li a{
+  width:1.6rem;
+  height:1.6rem;
+  margin:0 auto;
+  display:block;
+} 
+.classify-list-li a h6{
+  font-size:.36rem;
+  line-height:.6rem;
+  font-weight:100;
+  text-align:center;
+  color:#666;
+} 
+.classify-list-li-1{
+  border-right:none;
+}
+
+  /*分类列表结束*/
+
+  /*内容结束*/
+
+  /*底部开始*/
+footer{
+  width:100%;
+  height:.99rem;
+  background-color:#fafafa;
+  position:fixed;
+  bottom:0;
+  left:0;
+  padding:0 .12rem;
+}
+.bottom{
+  width:25%;
+  height:.99rem;
+  float:left;
+}
+.bottom span{
+  font-size:.24rem;
+  height:.3rem;
+  line-height:.35rem;
+  color:#7f7f7f;
+  margin-left:.65rem;
+  display:block;
+}
+.bottom1 span{
+  color:#a63433;
+}
+.bottom a{
+  display:block;
+  width:.88rem;
+  height:.62rem;
+  margin:0 auto;
+}
+.bottom a i{
+  color:#7f7f7f;
+  font-size:.3rem;
+  display:block;
+  text-align:center;
+  line-height:.62rem;
+}
+.bottom1 a i{
+  color:#a63433;
+}
+  /*底部结束*/
